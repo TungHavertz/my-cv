@@ -1,0 +1,15 @@
+.intro-bg {
+    background-color: #443728;
+    height: 60vh;
+}
+
+.intro-img {
+    background-image: url(../image/anh3.jpg);
+    background-size: cover;
+    width: 26%;
+    height: 80%;
+    border-radius: 50%;
+    border: solid 2px #443728;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); /* Đổ bóng với độ mờ và màu RGBA */
+    
+}

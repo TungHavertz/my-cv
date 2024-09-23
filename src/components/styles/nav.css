@@ -1,0 +1,50 @@
+/* Nav */
+.nav-img {
+    background-image: url(../image/anh4.jpg);
+    background-color: black;
+    height: 60vh; 
+    position: relative; /* Để tạo lớp phủ tương đối */
+
+}
+
+.nav-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Màu đen với độ mờ 0.5 */
+    z-index: 1; /* Đảm bảo lớp phủ ở trên hình nền */
+}
+
+.nav-btn1 {
+    background-color: #af8c83;
+    border-color: #af8c83;
+    color: black;
+    
+}
+
+.nav-btn1:hover {
+    background-color: #af8c83;
+    border-color: #af8c83;
+    color: black;
+    transform: scale(1.04); /* Khi hover, nút sẽ phóng to */
+    transition: transform 0.4s; /* Hiệu ứng chuyển đổi */
+}
+
+.nav-btn2 {
+    background-color: black;
+    border-color: #af8c83;
+    color: #af8c83;
+}
+
+.nav-btn2:hover {
+    background-color: black;
+    border-color: #af8c83;
+    color: #af8c83;
+    transform: scale(1.04); /* Khi hover, nút sẽ phóng to */
+    transition: transform 0.4s; /* Hiệu ứng chuyển đổi */
+
+}
+
