@@ -15,7 +15,6 @@ function Skills(props) {
                         <div className='skill-item'>
                             <p className='skill-title'>HTML/CSS</p>
                             <i class="fa-brands fa-html5  skill-icon"></i>
-                            <i class="fa-brands fa-css3  skill-icon"></i>
                         </div>
 
                     </div>
@@ -23,8 +22,6 @@ function Skills(props) {
                         <div className='skill-item'>
                             <p className='skill-title'>Responsive</p>
                             <i class="fa-solid fa-desktop skill-icon"></i>
-                            <i class="fa-solid fa-tablet-screen-button skill-icon"></i>
-                            <i class="fa-solid fa-mobile-screen-button skill-icon"></i>
                         </div>
 
                     </div>
@@ -57,13 +54,13 @@ function Skills(props) {
                         </div>
 
                     </div>
-                    <a href='https://github.com/TungHavertz' className='col-lg-4 col-md-6 col-sm-12 text-decoration-none'>
+                    <div  className='col-lg-4 col-md-6 col-sm-12 '>
                         <div className='skill-item'>
                             <p className='skill-title'>Git</p>
                             <i class="fa-brands fa-git-alt skill-icon"></i>
                         </div>
 
-                    </a>
+                    </div>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <div className='skill-item'>
                             <p className='skill-title'>C/C++</p>
