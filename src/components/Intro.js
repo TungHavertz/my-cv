@@ -6,7 +6,7 @@ function Intro() {
         <div id='intro' className='d-flex justify-content-center p-5 intro-bg'>
             <div className='bg-white w-75 h-100 d-flex flex-column align-items-start  rounded-4'>
                 <div className='d-flex flex-row justify-content-around w-100 h-100 pt-5'>
-                    <div className='d-flex flex-column align-items-start pt-4'>
+                    <div className='d-flex flex-column align-items-start mt-5 pt-5'>
                         <h1>Introduction</h1>
                         <h4>Name: Pham Tung Anh</h4>
                         <div className='d-flex'>
@@ -29,7 +29,7 @@ function Intro() {
                     
 
                 </div>
-                <div></div>
+                
 
             </div>
         </div>

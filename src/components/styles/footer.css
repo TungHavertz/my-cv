@@ -35,7 +35,6 @@
 
 .thank {
     color: white;
-    text-transform: uppercase; /* Chuyển thành chữ in hoa */
-    font-family: 'Great Vibes', cursive; /* Font viết tay dễ nhìn */
-    font-size: 36px; /* Tăng kích thước để dễ đọc */
+    text-transform: uppercase; 
+    font-size: 36px;
 }
