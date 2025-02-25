@@ -32,3 +32,10 @@
     transition: all 0.2s ease-in-out 0s;
 
 }
+
+.thank {
+    color: white;
+    text-transform: uppercase; /* Chuyển thành chữ in hoa */
+    font-family: 'Great Vibes', cursive; /* Font viết tay dễ nhìn */
+    font-size: 36px; /* Tăng kích thước để dễ đọc */
+}
