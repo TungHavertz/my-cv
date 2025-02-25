@@ -13,7 +13,7 @@ h1 {
     align-items: center;
     background-color: #EBE2E0;
     border: solid 2px #D7CFCD;
-    border-radius: 8%;
+    border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng với độ mờ và màu RGBA */
 
 }

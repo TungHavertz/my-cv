@@ -63,7 +63,7 @@ function Skills(props) {
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <div className='skill-item'>
-                            <p className='skill-title'>C/C++</p>
+                            <p className='skill-title'>C/C++/C#</p>
                             <i class="fa-brands fa-c  skill-icon"></i>
                         </div>
 

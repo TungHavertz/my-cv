@@ -30,7 +30,6 @@ function Modal(props) {
       <div className={checkModal('js')}>
         
       </div>
-      <button onClick={handleCloseClick}>X</button>
       
     </div>
   )

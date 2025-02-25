@@ -23,6 +23,8 @@
     background-position: center; /* Căn giữa ảnh */
     background-image: url('../image/html.png');
     display: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng với độ mờ và màu RGBA */
+
 }
 
 
@@ -36,6 +38,8 @@
     background-position: center; /* Căn giữa ảnh */
     background-image: url('../image/respon.png');
     display: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng với độ mờ và màu RGBA */
+
 }
 
 .modal-item__js {
@@ -48,6 +52,8 @@
     background-position: center; /* Căn giữa ảnh */
     background-image: url('../image/js.png');
     display: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng với độ mờ và màu RGBA */
+
 }
 
 .modal-bg.active {
