@@ -18,17 +18,17 @@ function Skills(props) {
                         </div>
 
                     </div>
-                    <div className='col-lg-4 col-md-6 col-sm-12' onClick={() => handleSkillClick('respon')}>
-                        <div className='skill-item'>
-                            <p className='skill-title'>Responsive</p>
-                            <i class="fa-solid fa-desktop skill-icon"></i>
-                        </div>
-
-                    </div>
                     <div className='col-lg-4 col-md-6 col-sm-12' onClick={() => handleSkillClick('js')}>
                         <div className='skill-item'>
                             <p className='skill-title'>JS</p>
                             <i class="fa-brands fa-square-js skill-icon"></i>
+                        </div>
+
+                    </div>
+                    <div className='col-lg-4 col-md-6 col-sm-12' onClick={() => handleSkillClick('respon')}>
+                        <div className='skill-item'>
+                            <p className='skill-title'>Responsive</p>
+                            <i class="fa-solid fa-desktop skill-icon"></i>
                         </div>
 
                     </div>
@@ -56,8 +56,8 @@ function Skills(props) {
                     </div>
                     <div  className='col-lg-4 col-md-6 col-sm-12 '>
                         <div className='skill-item'>
-                            <p className='skill-title'>Git</p>
-                            <i class="fa-brands fa-git-alt skill-icon"></i>
+                            <p className='skill-title'>Java</p>
+                            <i class="fa-brands fa-java skill-icon"></i>
                         </div>
 
                     </div>

@@ -9,7 +9,7 @@ function Project() {
                 <div className='col-lg-4 col-md-6 col-sm-12 project-item'>
                     <h3 className='project-text'>Project 1</h3>
                     <h4 className='project-text'>
-                        <a href='https://tunghavertz.github.io/js_ecommerce/' className='project-text text-decoration-none'>Developed a dynamic e-commerce website for a startup.</a>
+                        <a  className='project-text text-decoration-none'>Developed a dynamic e-commerce website for a startup.</a>
                         
                     </h4>
                 </div>
