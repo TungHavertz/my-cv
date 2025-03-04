@@ -1,6 +1,8 @@
 .intro-bg {
     background-color: #443728;
     height: 60vh;
+    flex: wrap;
+
 }
 
 .intro-img {
