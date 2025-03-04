@@ -1,0 +1,72 @@
+/* styles.css */
+.obj-wrap{
+    margin-left: 84px;
+}
+
+.obj-tilte{
+    color: #443728;
+    padding: 80px 0 40px 240px;
+}
+
+.obj-img{
+    background-image: url(../image/Competence.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 180px;
+    margin-top: 220px;
+    width: 330px;
+    height: 250px;
+    border: solid 2px #443728;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); /* Đổ bóng với độ mờ và màu RGBA */
+}
+
+
+
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ccc;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+}
+
+
+.number {
+    width: 30px;
+    height: 30px;
+    background-color: #ebe2e0;
+    font-weight: bold;
+    color: #443728;
+    left: 8px; /* Điều chỉnh vị trí ô số để phù hợp với đường kẻ */
+    border-radius: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 80px; /* Độ dài đường kẻ ngang */
+    height: 2px;
+    background-color: #ccc;
+    left: 30px; /* Bắt đầu từ mép phải của ô số */
+    top: 15px; /* Điều chỉnh vị trí trung tâm của ô số */
+}
+
+.content {
+    /* margin-left: 50px; Khoảng cách từ đường kẻ đến nội dung */
+    width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); 
+    color: #443728;
+    z-index: 1;
+}
+
+.content:hover{
+    transform: scale(1.2); /* Khi hover, nút sẽ phóng to */
+    transition: transform 0.6s; /* Hiệu ứng chuyển đổi */
+}
+
+

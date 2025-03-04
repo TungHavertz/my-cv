@@ -9,7 +9,7 @@ function Skills(props) {
     return (
         <div className='d-flex justify-content-center skill-wrap'>
             <div className='d-flex flex-column align-items-start flex-column'>
-                <h1>Skills</h1>
+                <h1 >Skills</h1>
                 <div className='row gy-4'>
                     <div className='col-lg-4 col-md-6 col-sm-12' onClick={() => handleSkillClick('html')}>
                         <div className='skill-item'>

@@ -1,10 +1,12 @@
 .skill-wrap {
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 80px;
 }
 
 h1 {
     color: #453829;
+    padding-bottom: 40px;
 }
 
 .skill-item {
