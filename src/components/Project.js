@@ -5,7 +5,7 @@ function Project() {
     <div className=' d-flex justify-content-center project-bg'>
         <div className='d-flex flex-column align-items-start justify-content-evenly z-2 project-wrap'>
             <h1 className='project-title'>Personal Project</h1>
-            <div className='row'>
+            <div className='row gy-5'>
                 <div className='col-lg-4 col-md-6 col-sm-12 project-item'>
                     <h3 className='project-text'>Project 1</h3>
                     <h4 className='project-text'>

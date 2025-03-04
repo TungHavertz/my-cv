@@ -5,9 +5,9 @@ function Hobby() {
         <div className='d-flex justify-content-center p-5 hobby-bg'>
             <div className='bg-white w-75 h-100 d-flex flex-column align-items-start rounded-4'>
                 <div className='d-flex flex-row justify-content-around w-100 h-100 pt-5'>
-                    <div className='d-flex flex-column align-items-start mt-3 pt-3 '>
+                    <div className='d-flex flex-column align-items-start mt-3 pt-3 px-5'>
                         <h1 className='px-5'>My interesting</h1>
-                        <div className='d-flex row px-5'>
+                        <div className='d-flex row gy-5 px-5'>
                             <div className='col col-lg-4 col-sm-12'>
                             <i class="fa-solid fa-book-open"></i>
                                 <h2>Learn new technologies </h2>
