@@ -1,34 +1,27 @@
-import React from 'react'
-import './styles/project.css'
-function Project() {
-  return (
-    <div className=' d-flex justify-content-center project-bg'>
-        <div className='d-flex flex-column align-items-start justify-content-evenly z-2 project-wrap'>
-            <h1 className='project-title'>Personal Project</h1>
-            <div className='row gy-5'>
-                <div className='col-lg-4 col-md-6 col-sm-12 project-item'>
-                    <h3 className='project-text'>Project 1</h3>
-                    <h4 className='project-text'>
-                        <a href='https://tunghavertz.github.io/js_ecommerce/' className='project-text text-decoration-none'>Developed a dynamic e-commerce website for a startup.</a>
-                        
-                    </h4>
-                </div>
-                <div className='col-lg-4 col-md-6 col-sm-12 project-item'>
-                    <h3 className='project-text'>Project 2</h3>
-                    <h4 className='project-text'>
+// src/components/Projects.js
+import React from 'react';
+import '../styles/project.css';
+import ProjectsItem from '../itemComponents/ProjectItem.js'; // Đường dẫn tùy thuộc thư mục bạn chọn
+import projectsData from '../data/projectData.js';
 
-                        <a  className='project-text text-decoration-none'>Winform phone sales management program</a>
-                        
-                        </h4>
-                </div>
-                <div className='col-lg-4 col-md-6 col-sm-12 project-item'>
-                    <h3 className='project-text'>Project 1</h3>
-                    <h4 className='project-text'>Developed a dynamic e-commerce website for a startup.</h4>
-                </div>
-            </div>
+function Projects() {
+  return (
+    <div className="d-flex justify-content-center project-bg">
+      <div className="d-flex flex-column align-items-start justify-content-evenly z-2 project-wrap">
+        <h1 className="project-title">Personal Project</h1>
+        <div className="row gy-5">
+          {projectsData.map((project, index) => (
+            <ProjectsItem
+              key={index}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+            />
+          ))}
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Project
+export default Projects;

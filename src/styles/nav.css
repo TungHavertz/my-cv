@@ -22,7 +22,8 @@
     background-color: #af8c83;
     border-color: #af8c83;
     color: black;
-    
+    transform: scale(1); /* Kích thước ban đầu */
+    transition: transform 0.6s
 }
 
 .nav-btn1:hover {
@@ -37,6 +38,8 @@
     background-color: black;
     border-color: #af8c83;
     color: #af8c83;
+    transform: scale(1); /* Kích thước ban đầu */
+    transition: transform 0.6s
 }
 
 .nav-btn2:hover {

@@ -24,6 +24,8 @@
 .footer-icon {
     color: white;
     font-size: 200%;
+    opacity: 1; /* Trạng thái mặc định: hiện rõ hoàn toàn */
+    transition: all 0.4s ease-in-out 0s; /* Hiệu ứng chuyển đổi áp dụng cho mọi trạng thái */
 }
 
 .footer-icon:hover {

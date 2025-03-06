@@ -62,6 +62,8 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); 
     color: #443728;
     z-index: 1;
+    transform: scale(1); /* Kích thước ban đầu */
+    transition: transform 0.6s
 }
 
 .content:hover{

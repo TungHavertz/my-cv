@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/footer.css'
+import '../styles/footer.css'
 function Footer() {
   return (
     <div id='footer' className='d-flex flex-column justify-content-around footer-bg'>
