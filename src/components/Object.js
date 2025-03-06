@@ -6,14 +6,14 @@ import objectData from '../data/objectData.js';
 
 function Object() {
   return (
-    <div className="obj-wrap w-75">
+    <div className="p-5">
       <h1 className="obj-tilte">Object</h1>
-      <div className="row gx-1 d-flex justify-content-around ms-lg-5 ps-lg-5">
-        <div className="col-lg-6 col-md-6 col-sm-12">
+      <div className="row d-flex justify-content-evenly mx-5 px-5">
+        <div className="col-lg-6 col-md-6 col-sm-12 ps-5">
           <div className="obj-img d-none d-sm-block"></div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
-          <div className="timeline w-100 position-relative">
+          <div className="timeline w-100 position-relative ">
             {objectData.map((item, index) => (
               <ObjectItem
                 key={index}

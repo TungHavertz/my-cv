@@ -1,14 +1,22 @@
 /* styles.css */
-.obj-wrap{
-    margin-left: 84px;
+
+/* Định nghĩa các biến màu sắc ở :root để sử dụng toàn cục */
+:root {
+    --primary-color: #443728; /* Màu chính */
+    --shadow-color: rgba(0, 0, 0, 0.6); /* Màu đổ bóng */
+    --line-color: #ccc; /* Màu đường kẻ */
+    --number-bg: #ebe2e0; /* Màu nền của số */
+    --content-bg: #fff; /* Màu nền của content */
 }
 
-.obj-tilte{
-    color: #443728;
-    padding: 80px 0 40px 0px;
+/* Áp dụng biến vào các class */
+
+
+.obj-tilte {
+    color: var(--primary-color);
 }
 
-.obj-img{
+.obj-img {
     background-image: url(../image/Competence.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,59 +24,50 @@
     margin-top: 220px;
     width: 330px;
     height: 250px;
-    border: solid 2px #443728;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); /* Đổ bóng với độ mờ và màu RGBA */
+    border: solid 2px var(--primary-color);
+    box-shadow: 10px 10px 20px var(--shadow-color);
 }
-
-
-
 
 .timeline::before {
     content: '';
     position: absolute;
     width: 2px;
-    background-color: #ccc;
+    background-color: var(--line-color);
     left: 20px;
     top: 0;
     bottom: 0;
 }
 
-
 .number {
     width: 30px;
     height: 30px;
-    background-color: #ebe2e0;
+    background-color: var(--number-bg);
     font-weight: bold;
-    color: #443728;
-    left: 8px; /* Điều chỉnh vị trí ô số để phù hợp với đường kẻ */
+    color: var(--primary-color);
+    left: 8px;
     border-radius: 0;
 }
 
 .timeline-item::before {
     content: '';
     position: absolute;
-    width: 80px; /* Độ dài đường kẻ ngang */
+    width: 80px;
     height: 2px;
-    background-color: #ccc;
-    left: 30px; /* Bắt đầu từ mép phải của ô số */
-    top: 15px; /* Điều chỉnh vị trí trung tâm của ô số */
+    background-color: var(--line-color);
+    left: 30px;
+    top: 15px;
 }
 
 .content {
-    /* margin-left: 50px; Khoảng cách từ đường kẻ đến nội dung */
-    width: 600px;
-    background-color: #fff;
+    width: 460px;
+    background-color: var(--content-bg);
     border-radius: 5px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); 
-    color: #443728;
+    box-shadow: 10px 10px 20px var(--shadow-color);
+    color: var(--primary-color);
     z-index: 1;
-    transform: scale(1); /* Kích thước ban đầu */
-    transition: transform 0.6s
+    transition: transform 0.6s; /* Di chuyển transition ra ngoài để áp dụng cả khi hover và bỏ hover */
 }
 
-.content:hover{
-    transform: scale(1.2); /* Khi hover, nút sẽ phóng to */
-    transition: transform 0.6s; /* Hiệu ứng chuyển đổi */
+.content:hover {
+    transform: scale(1.1);
 }
-
-
